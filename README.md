@@ -133,7 +133,7 @@ http://localhost:3000
 ## Screenshots
 
 ### Register Page
-<img width="797" height="635" alt="image" src="https://github.com/user-attachments/assets/a0cf974c-d6c9-4865-9d62-c68d00dda396" />
+<img width="779" height="635" alt="Screenshot 2026-06-17 100609" src="https://github.com/user-attachments/assets/763b7653-8c18-42ec-9e37-3276305e4730" />
 
 ### Login Page
 <img width="653" height="507" alt="Screenshot 2026-06-17 095111" src="https://github.com/user-attachments/assets/cac6fea7-e996-4156-b080-3db650ad10fd" />
