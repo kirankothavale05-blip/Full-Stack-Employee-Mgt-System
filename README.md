@@ -83,6 +83,53 @@ Delete Employee
 | PUT | /employees/{id} | Update employee |
 | DELETE | /employees/{id} | Delete employee |
 
+## Installation & Setup
+
+### Clone Repository
+
+```bash
+git clone https://github.com/kirankothavale05-blip/Full-Stack-Employee-Mgt-System.git
+```
+
+### Backend Setup
+
+1. Open the Spring Boot project.
+2. Configure MySQL database in `application.properties`.
+
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/employeedb
+spring.datasource.username=root
+spring.datasource.password=your_password
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+```
+
+3. Run the Spring Boot application.
+
+```bash
+mvn spring-boot:run
+```
+
+Backend API will start at:
+
+```text
+http://localhost:8080
+```
+
+### Frontend Setup
+
+```bash
+cd emp-frontend
+npm install
+npm start
+```
+
+Frontend application will start at:
+
+```text
+http://localhost:3000
+
 ## Screenshots
 
 ### Register Page
