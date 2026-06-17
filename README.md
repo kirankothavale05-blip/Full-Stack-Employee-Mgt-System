@@ -46,6 +46,22 @@ A full-stack Employee Management System built using Spring Boot, React.js, MySQL
 - VS Code
 - Postman
 
+## Project Architecture
+
+```text
+React Frontend
+       ↓
+REST API Layer
+       ↓
+Spring Boot Backend
+       ↓
+Service Layer
+       ↓
+Repository Layer (JPA)
+       ↓
+MySQL Database
+```
+
 ## Application Flow
 
 ```text
@@ -56,6 +72,8 @@ Login User
 Generate JWT Token
       ↓
 Access Dashboard
+      ↓
+View Employees
       ↓
 Add Employee
       ↓
@@ -129,29 +147,37 @@ Frontend application will start at:
 
 ```text
 http://localhost:3000
+```
 
 ## Screenshots
 
 ### Register Page
-<img width="779" height="635" alt="Screenshot 2026-06-17 100609" src="https://github.com/user-attachments/assets/763b7653-8c18-42ec-9e37-3276305e4730" />
+
+![Register Page](https://github.com/user-attachments/assets/763b7653-8c18-42ec-9e37-3276305e4730)
 
 ### Login Page
-<img width="653" height="507" alt="Screenshot 2026-06-17 095111" src="https://github.com/user-attachments/assets/cac6fea7-e996-4156-b080-3db650ad10fd" />
+
+![Login Page](https://github.com/user-attachments/assets/cac6fea7-e996-4156-b080-3db650ad10fd)
 
 ### Dashboard
-<img width="1891" height="482" alt="emp2" src="https://github.com/user-attachments/assets/264c75dc-1820-4d46-a0a8-1aeae041a656" />
+
+![Dashboard](https://github.com/user-attachments/assets/264c75dc-1820-4d46-a0a8-1aeae041a656)
 
 ### Employee List
-<img width="1862" height="597" alt="emp3" src="https://github.com/user-attachments/assets/528e1ad3-f2eb-44af-9362-a30e9098d0bd" />
+
+![Employee List](https://github.com/user-attachments/assets/528e1ad3-f2eb-44af-9362-a30e9098d0bd)
 
 ### Add Employee
-<img width="1902" height="612" alt="emp6" src="https://github.com/user-attachments/assets/faa02b53-34eb-4408-8245-66aca0a890db" />
+
+![Add Employee](https://github.com/user-attachments/assets/faa02b53-34eb-4408-8245-66aca0a890db)
 
 ### Update Employee
-<img width="1907" height="677" alt="emp4" src="https://github.com/user-attachments/assets/9caa88d5-da8a-4e51-a454-a86d47035b4c" />
+
+![Update Employee](https://github.com/user-attachments/assets/9caa88d5-da8a-4e51-a454-a86d47035b4c)
 
 ### Delete Employee
-<img width="1868" height="618" alt="emp5" src="https://github.com/user-attachments/assets/81668bd0-1b1d-42d6-ab56-4e64ad70e80a" />
+
+![Delete Employee](https://github.com/user-attachments/assets/81668bd0-1b1d-42d6-ab56-4e64ad70e80a)
 
 ## Future Enhancements
 
